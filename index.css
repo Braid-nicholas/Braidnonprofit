@@ -1,0 +1,384 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: white;
+	color: white;
+}
+h1{
+	font-family: "buena-park-jf", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+}
+h2{
+	font-family: "mighty-slab", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color: #8434D5;
+}
+span{
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	 transition: all .9s ease-in-out;
+	 color: #8434D5;
+}
+header{ 	
+  	background-color: #8434D5; 
+  	background-size: cover;
+  	height: 60px;	
+  	text-align: center;
+  	font-size: 20px;
+}
+p {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	transition: all .9s ease-in-out;
+	font-size: 24px;
+}
+li {
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	transition: all .9s ease-in-out;
+	list-style: none;
+	font-size: 20px;
+}
+ul li{
+	color:#8434D5;
+}
+/*general link styles*/
+a:link{
+	color: #D1FFAF;
+}
+a{
+	text-decoration: none;
+}
+a:visited{color: #D1FFAF;}
+a:hover{color: pink}
+a{transition: all .9s ease-in-out;
+position: static;}
+
+/*header link styles*/
+
+#homebutts{
+	font-size: 0px;
+}
+#homebutts ul{
+	margin-right: 111px;
+	margin-left: 111px;
+	text-align: center;
+}
+
+#homebutts ul li{
+	list-style: none;
+	padding-top: 6px;
+	font-family: "ff-basic-gothic-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	word-break: 30px;
+	display: inline-block;
+	padding-left: 111px;
+	padding-right: 111px;
+
+}
+
+/*fun effects*/
+#homebutts a{
+	 transition: all .9s ease-in-out;
+}
+#homebutts 
+	ul li:hover {
+	color: pink;
+	transform: scale(1.1);
+	list-style: none;
+
+}
+	ul li:visited{
+		color: #D1FFAF;
+	}
+
+/*landing styles*/
+
+#landing{
+	background: url(svgfiles/backgrounds/landingbg.svg) no-repeat center center;
+	background-size: cover;
+	height: 900px;
+}
+.landing img{
+	margin-left: 322px;
+	margin-right: 222px;
+	margin-top: 31px;
+	width: 1223px;
+}
+.landing h1{
+	background-color: #8434D5;
+	background-size: cover;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	padding-top:10px ;
+	padding-bottom: 10px;
+	margin-top: 77px;
+	color:#D1FFAF;
+}
+.landtitle h1{
+	text-align: center;
+	padding-top: 70px;
+	height: 176px;
+	color: #FFFAC3;
+	font-family: "buena-park-jf", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+/*Mission statement styles*/
+
+.ourmission img[src*="svgfiles/people/gf/gfshocked.svg"] {
+    float: left;
+    clear: both;
+    width: 500px;
+    margin-left: 242px;
+    transition: all .9s ease-in-out;
+    display: inline-block;
+}
+.ourmission img:hover{
+	rotate: 40deg  }
+
+.ourmission span{
+	font-size: 20px;
+	text-align: right;
+	float: right;
+	width: 500px;
+	margin-top: 0;
+}
+.info{
+	background:url(svgfiles/backgrounds/missionbg.svg) no-repeat center center;
+	background-size: cover;
+	height: 2300px;
+}
+
+.ourmission h2{
+	float: right;
+	color: #8434D5;
+}
+.ourmission p{
+	color: #8434D5;
+}
+.ourmission h2, span {
+
+	margin-left: 222px;
+	margin-right: 222px;
+	color:#8434D5;
+}
+/*community styles*/
+.community{
+	margin-top: 200px;
+	padding-top: 300px;
+}
+.cimg img[src*="svgfiles/logos/dl.svg"] {
+    -webkit-shape-outside: url(svgfiles/logos/dl.svg);  
+    shape-outside: url(svgfiles/logos/dl.svg);  
+    float: right;
+    clear: left;
+    width: 550px;
+    margin-right: 242px;
+    transition: all .8s ease-in-out;
+    margin-top: 20px;
+}
+.cimg{
+	transition: all .8s ease-in-out;
+}
+
+.community span{
+	font-size: 20px;
+	text-align: left;
+	float: left;
+	width: 500px;
+}
+.community h2{
+	float: left;
+		color: #8434D5;
+}
+.community p{
+	color: #8434D5;
+
+}
+.community h2, span {
+
+	margin-left: 222px;
+	margin-right: 222px;
+}
+
+#happy{
+	height: 500px;
+	width: 500px;
+	margin-right: 111px;
+	margin-left: 222px;
+	margin-top: 20px;
+	padding-top: 200px ;
+}
+.cimg{
+	transition: all 2s
+}
+.cimg:hover{
+	scale: 1.1;
+	
+}
+		/*question box style*/
+
+.questionbox{
+	background-color:#8434D5; 
+	height: 400px;
+	width: 300ps;
+	margin-left: 444px;
+	margin-right: 444px;
+	justify-content: space-evenly;
+	justify-items: center;
+	margin-top: 500px;
+	border-radius: 50px;
+	transition: all 1.2s ease-in-out;
+
+}
+.questionbox h1{
+	text-align: center;
+	justify-content: center;
+	padding-top: 80px;
+	font-size: 50px;
+}
+.questionbox p{
+	text-align: center;
+	justify-content: center;
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+.questionbox ul li{
+	color: yellowgreen;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFFAC3;
+	padding: 10px 20px 10px 20px;
+	border-radius: 50px;
+	color: #8434D5;
+}
+.questionbox ul{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-left: 111px;
+	padding-right: 111px;
+	padding-top: 60px;
+
+}
+/*fun question box things*/
+
+.questionbox:hover{
+	transform: scale(1.4);
+}
+/*Support*/
+#support{
+	background: url(svgfiles/backgrounds/supportbg.svg) no-repeat center center;
+	height: 1800px;
+}
+
+#support img[src*="svgfiles/people/gf/gfsupport.svg"]{
+    float: right;
+    clear: both;
+    width: 700px;
+    margin-right: 242px;
+    transition: all .9s ease-in-out;
+    display: inline-block;
+	margin-top: 0px;
+	padding-top: 100px;
+}
+#support h2{
+	word-spacing: 10px;
+	padding: 0px 222px 0px 0px;
+	color: #8434D5;
+}
+#support h1{
+	color: #8434D5;
+
+}
+.support{
+	padding:200px 200px 0px 222px;
+	margin: 0 100px 0 100px;
+}
+.support ul li{
+	padding: 30px 0px 0px 0px;
+	color: #8434D5;
+	font-size: 20px;
+}
+/*donation things*/
+#donationblurp img{
+	width: 200px;
+}
+#donationblurp h1{
+	color:#8434D5;
+	padding-bottom: 0;
+}
+#donationblurp{
+	list-style: none;
+	margin-top: 100px;
+	justify-content: center;
+	text-align: center;
+	margin: 1000px 222px 0px 222px;
+}
+.donationblurp ul li{
+	display: inline-block;
+	padding: 200px 50px 0px 100px;
+}
+
+#donationblurp ul{
+	margin: 20px;
+}
+/*footer styles*/
+#footerthings {
+	margin: 120px 0px 0px 0px;
+	height: 150px;
+	background-color: #8434D5;
+	background-size: cover;
+	text-align: center;
+}
+
+#footerthings ul li{
+	margin:30px 222px 0px 222px;
+	display: inline-block;
+	color: #D1FFAF;
+	height: 50px;
+}
+
+#footerthings h2{
+	color: #D1FFAF;
+	margin: 0px 222px 0px 222px;
+	text-align: center;
+	padding-top: 0px;
+}
+@media only screen and (max-width: 800px) {
+	header{
+		transition: all 1s;
+		height: 50px;
+		padding-bottom: 100px;d
+	}	
+	#homebutts ul li {
+		
+		scale: .8;
+	}
+
+	.title{
+		transition: all 1s;
+		scale: 1.2;
+		padding-bottom: 10px;
+	}
+
+
+}}}
